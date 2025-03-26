@@ -1,0 +1,133 @@
+/*NavBar.css*/
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(37, 63, 123);
+    padding: 15px 20px ;
+}
+
+.NavLinks{
+    height: 15vh;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(228, 232, 230);
+}
+
+nav ul li a:hover{
+    color: rgb(199, 141, 26);
+transition: .3s; 
+}
+
+
+
+
+ @media (prefers-reduced-motion: no-preference) {
+  .HamburgerMenu {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+ } 
+
+.DesktopNavigation{
+        display: none;
+    }
+
+
+    /* .MobileNavigation{
+        display: flex;
+        align-items: center;
+        height: 21.4vh;
+       
+    } */
+      
+
+
+.HamburgerMenu{
+    position: absolute;
+    left: 2%;
+    width: 40px; 
+    cursor: pointer;
+    /* width: 5%; */
+  }
+
+  /*NavBar.css*/
+
+/* .MobileNavigation{
+    display: none;
+} */
+
+/*This takes the MobileNavigation component away from the browser.
+
+/*NavBar.css*/
+
+
+@media (min-width: 900px) {
+ 
+    .MobileNavigation {
+      
+      display: none; 
+    }
+
+    .DesktopNavigation {
+      opacity:70%;
+      display: flex; 
+      position: fixed; 
+      top: 0;
+      left: 0;
+      height: 100%; 
+      flex-direction: column; 
+      background-color: rgb(37, 63, 123);
+      padding: 40px ; 
+    
+    }
+  
+    .DesktopNavigation ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column; 
+    }
+  
+    .DesktopNavigation ul li {
+      padding: 20px 20px;
+      text-align: left;
+      
+    }
+  
+    .DesktopNavigation ul li a {
+      color: rgb(228, 232, 230);
+      text-decoration: none;
+      font-weight: bold;
+    }
+  
+    .DesktopNavigation ul li a:hover {
+      color: rgb(199, 141, 26);
+      transition: 0.3s;
+    }
+  }

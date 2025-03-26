@@ -1,0 +1,218 @@
+body, html {
+    margin:  5%;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #e9e4e4;
+    background-color: #121212;
+  }
+  
+ 
+  .login-container{
+
+    color:black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    }
+
+    .login-containter input{
+     box-shadow: #121212;
+    
+     
+    }
+
+  
+   .login-btn, .signup-btn {
+    background-color: #007bff;
+    border-radius: 5px;
+    flex-wrap: wrap;
+  }
+  
+  .hero-section {
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #1f1f1f;
+    text-align: left;
+  }
+  
+  .hero-content {
+    color:#fff;
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .hero-image {
+    width: 40%;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  .features-section {
+    padding: 4rem 2rem;
+    background-color: #121212;
+    text-align: center;
+  }
+  
+  .features-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .feature-card {
+    background-color: #1f1f1f;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+  }
+  
+  .footer {
+    background-color: #1f1f1f;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  .footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-links {
+    margin: 1rem 0;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+
+
+  /* .app{
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    position: relative;
+  } */
+
+
+  /* .main-content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    z-index: 1;
+  }  */
+
+/* .stock-chart-watchlist,
+.community-chat,
+.business-info,
+.news-section {
+    
+    color:black;
+  width: 50%;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.watchlist {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+
+  .watchlist button {
+    padding: 0.5rem 1rem;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .watchlist button:hover {
+    background-color: #0056b3;
+  }
+
+  .stock-chart {
+    text-align: center;
+  }
+
+  .community-chat.minimized div {
+    display: none;
+  }
+
+  .community-chat button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .community-chat button:hover {
+    background-color: #0056b3;
+  } */
+
