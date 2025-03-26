@@ -1,6 +1,6 @@
  //NavLinks.js
 
- import '../styles/NavBar.css';
+ import '../../../styles/NavBar.css'
  import {Outlet,Link} from 'react-router-dom'
  import { NavLink } from 'react-router-dom';
  

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {useAppStore} from '../../../store/store';
-import '../styles/styles.css'
+import '../../../styles/styles.css'
 import { useNavigate } from 'react-router-dom';
 
 

@@ -1,5 +1,5 @@
-import React, { useState,useEffect } from 'react';
-import {FetchSymbolServices, getMarketData} from '../api/Services'
+import React, { useState } from 'react';
+import {FetchSymbolServices, getMarketData} from '../../api/Services'
  
 
 

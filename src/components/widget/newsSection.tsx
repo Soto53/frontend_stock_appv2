@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { getMarketNews } from '../api/Services'
-import { MarketData } from '../types/types'
+import { getMarketNews } from '../../api/Services'
+import { MarketData } from '../../types/types'
 
 const NewsSection: React.FC = () => {
 

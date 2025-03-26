@@ -1,6 +1,6 @@
 import React from 'react';
 import NavLinks from './NavLinks';
-import '../styles/NavBar.css';
+import '../../../styles/NavBar.css'
 import { MdOutlineMenu } from 'react-icons/md'; // Import the hamburger menu icon
 import { useState } from "react";
 
