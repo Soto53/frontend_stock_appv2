@@ -15,7 +15,7 @@
 
 
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,23 +24,42 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
+<<<<<<< HEAD:src/App.css
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+=======
+>>>>>>> WebSock:src/styles/App.css
 
 
 
 /* .app {
   font-family: Arial, sans-serif;
   display: flex;
+<<<<<<< HEAD:src/App.css
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+  /* position: relative; */
+}
+=======
   justify-content: center;
   align-items: center;
   height: 100vh;
   position: relative;
 } */
+>>>>>>> WebSock:src/styles/App.css
 
 /* .hamburger-menu {
   position: fixed;
@@ -88,7 +107,7 @@
   max-width: 800px;
   position: absolute;
   z-index: 1;
-}
+} 
 
 .stock-chart-watchlist,
 .community-chat,
