@@ -68,7 +68,7 @@ export function useSubscription(tickers: string[]) {
 
         sendJsonMessage({
           action: 'subscribe',
-          trades: tickers,
+          trades: ['AAPL'],
         });
         setPreviousTickers(tickers);
       }

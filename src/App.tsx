@@ -11,6 +11,7 @@ import Login from './components/common/auth/login';
 import Stocks from './pages/stocks';
 import Crypto from './pages/crypto';
 
+import { StockProvider } from './providers/StockProvider';
 import { AlpacaProvider } from './providers/AlpachaProvider';
 import './styles/styles.css';
 import './styles/widget.css';
@@ -19,6 +20,7 @@ import Widget from './components/widget/widget';
 const App: React.FC = () => {
  
   return (
+    <StockProvider>
     <AlpacaProvider>
 
     <Router>
@@ -38,7 +40,7 @@ const App: React.FC = () => {
       </Routes>
     </Router>
 </AlpacaProvider>
-
+</StockProvider>
   );
 };
 

@@ -1,9 +1,10 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import React, { useState, useEffect } from "react";
 import { useQuery } from "react-query";  // Importing useQuery from react-query
-import { useAlpaca } from "../providers/AlpachaProvider"; // Assuming useAlpaca is your custom hook
+import { useStock } from "../providers/StockProvider"; // Assuming useAlpaca is your custom hook
 import '../styles/stocks.css';
 import { ChartData } from '../types/types';
+import { useSubscription } from '../hooks/useSubscription';
 
 
 
@@ -15,7 +16,7 @@ const Stocks: React.FC = () => {
   const [hasInitialized, setHasInitialized] = useState(false);
   const [input, setInput] = useState('');
 
-  const { lastJsonMessage, readyState, isAuthed, tickers, setTickers } = useAlpaca();
+  const { lastJsonMessage, readyState, isAuthed, tickers, setTickers } = useStock();
 
   // This useEffect hook is not inside any conditional logic
   useEffect(() => {
